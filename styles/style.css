@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+   min-height: 20vh;
+   min-width: 40vw;
+   margin: 2rem;
+   padding: 10px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 5px;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 15rem;
+}
+
+.btn:hover,
+.btn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+header{
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+}
+main  .flex-coltainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 90vw;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #FFFFFF;
+  
+}
+main  .flex-coltainer .button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 40vw;
+    padding: 10px;
+  
+}
+main .flex-coltainer .container #output{
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    min-height: 26rem;
+    /* max-width: 40vw; */
+}
+main .flex-coltainer .container .item{
+    padding-left: 30px;
+    font-size: 20px;
+}
+main .flex-coltainer .clear button{
+   min-width: 2rem !important;
+}
+
+
+ 
+footer{
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px -2px 4px,  rgba(0, 0, 0, 0.3) 0px -7px 13px -3px, 
+    rgba(0, 0, 0, 0.2) 0px 3px 0px inset;
+}
+
+@media only screen and (max-width: 600px) {
+    main .container{
+      width: 80vw;
+        min-height: 50vh;
+    }
+    
+  }

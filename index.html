@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Js Assignment</title>
+</head>
+<body id="bg">
+    <header id="head">   
+        <h1>JS Crash Course</h1>
+        <h3>Second Assignment</h3>
+    </header>
+    <main >
+        <div class="flex-coltainer" >
+
+            <div class="container">
+                <div class="button" >
+                    <button type="button" class="btn" onclick="addNumber()">Add Number</button>
+                    <button type="button" class="btn" onclick="addValue()">Add Value in array</button>
+                    <button type="button" class="btn" onclick="showValue()">Show  Value in Array</button>
+                    <button type="button" class="btn" onclick="addpara()">Add new para</button>
+                    <button type="button" class="btn" onclick="addlistitem()">Add new List Items</button>  
+                    <input type="color" class="btn" id="inputcolor" onchange="changecolor()"></input>
+                    <button type="button" class="btn" onclick="provideStudent()">Add new Student</button> 
+                </div>
+            </div>
+            <div class="container"  >
+                <p id="output"></p>
+                <div class="item">
+                    <ul id="lang"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+            <button type="button" class="btn " onclick="clearOutput()">Clear Output</button>
+        </div>
+      
+    </main>
+    <footer>
+        <p id="footer">&copy; <span id="year"></span> Developed By IjjazAhmad <br>JS-124122</p>
+        <p></p>
+    </footer>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
